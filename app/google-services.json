@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "703701601803",
+    "firebase_url": "https://road-signs-app.firebaseio.com",
+    "project_id": "road-signs-app",
+    "storage_bucket": "road-signs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703701601803:android:0b57e87ac5ecee8b",
+        "android_client_info": {
+          "package_name": "tech.studiozebra.pytniznaci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703701601803-dc5i6jdj140tr0kusdq1nsb8e77rtpna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIW6EEF2OWPZjiDRTPJ3DIlLVGDedw-HY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
