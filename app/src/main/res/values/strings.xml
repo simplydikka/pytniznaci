@@ -12,8 +12,8 @@
     <string name="drawer_other">За Нас</string>
 
     <!-- Change AdMob Banner and Interstitial Id -->
-    <string name="admob_banner_id">ca-app-pub-2275082029538522/9859232298</string>
-    <string name="admob_interstitial_id">ca-app-pub-2275082029538522/3812698697</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
 
     <!-- Set to @string/admob_off to disable admob and to @string/admob_on enable admob -->
     <string name="admob_visibility">@string/admob_on</string>
@@ -64,4 +64,19 @@
     <string name="content">@string/content_value</string>
     <string name="content_value">2</string>
 
+    <!-- Welcome Screen -->
+
+    <string name="next">Напред</string>
+    <string name="skip">Назад</string>
+    <string name="start">Начало</string>
+
+    <string name="slide_1_title">ВИНАГИ С ТЕБ</string>
+    <string name="slide_1_desc">Офлайн каталог за лесна самоподготовка директно в телефона ти!</string>
+
+    <string name="slide_2_title">ЛЕСНА НАВИГАЦИЯ</string>
+    <string name="slide_2_desc">Удобна търсачка, с която да откриеш конкретен знак веднага.</string>
+
+    <string name="slide_3_title">СПИСЪК ЗА БЪРЗ ДОСТЪП</string>
+    <string name="slide_3_desc">Добавяй знаци он всички категории в "Любими" за лесен достъп при преговор.</string>
+    <string name="placeholder">Placeholder</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pytniznaci.pytniznaci">
+    package="tech.studiozebra.pytniznaci">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,14 +12,15 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="com.pytniznaci.pytniznaci.firebase.Analytics"
+        android:name="tech.studiozebra.pytniznaci.firebase.Analytics"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        >
 
         <activity
-            android:name="com.pytniznaci.pytniznaci.activities.ActivitySplash"
+            android:name="tech.studiozebra.pytniznaci.activities.ActivitySplash"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pytniznaci.pytniznaci.activities.MainActivity"
+            android:name="tech.studiozebra.pytniznaci.activities.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,13 +38,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pytniznaci.pytniznaci.activities.ActivityStoryList"
+            android:name="tech.studiozebra.pytniznaci.activities.ActivityStoryList"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.pytniznaci.pytniznaci.activities.ActivityDetailViewPager"
+            android:name="tech.studiozebra.pytniznaci.activities.ActivityDetailViewPager"
             android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
-            android:name="com.pytniznaci.pytniznaci.activities.ActivityDetailStory"
+            android:name="tech.studiozebra.pytniznaci.activities.ActivityDetailStory"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 
         <!--admob-->
@@ -51,18 +52,22 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-3940256099942544~3347511713"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
         <!--fcm-->
-        <service android:name="com.pytniznaci.pytniznaci.firebase.MyFirebaseMessagingService">
+        <service android:name="tech.studiozebra.pytniznaci.firebase.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
-        <service android:name="com.pytniznaci.pytniznaci.firebase.MyFirebaseInstanceIdService">
+        <service android:name="tech.studiozebra.pytniznaci.firebase.MyFirebaseInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

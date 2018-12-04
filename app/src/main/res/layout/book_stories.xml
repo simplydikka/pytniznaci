@@ -35,7 +35,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:visibility="@string/admob_visibility"
-            ads:adSize="BANNER"
+            ads:adSize="SMART_BANNER"
             ads:adUnitId="@string/admob_banner_id" />
     </RelativeLayout>
 
