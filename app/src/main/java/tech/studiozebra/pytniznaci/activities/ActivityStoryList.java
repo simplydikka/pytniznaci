@@ -26,6 +26,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.analytics.FirebaseAnalytics;
+
+
 import tech.studiozebra.pytniznaci.Config;
 import tech.studiozebra.pytniznaci.R;
 import tech.studiozebra.pytniznaci.adapters.AdapterStoryList;
@@ -223,6 +225,8 @@ public class ActivityStoryList extends AppCompatActivity {
                 intplay.putExtra("CATEGORY_ITEM_NEWSHEADING", str_book_title);
                 intplay.putExtra("CATEGORY_ITEM_NEWSDESCRI", str_book_desc);
                 intplay.putExtra("CATEGORY_ITEM_NEWSDATE", str_book_subtitle);
+
+
 
 //                object = listItem.get(position);
 //                int pos = Integer.parseInt(object.getCatId());

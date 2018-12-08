@@ -25,6 +25,7 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+
 import tech.studiozebra.pytniznaci.Config;
 import tech.studiozebra.pytniznaci.R;
 import tech.studiozebra.pytniznaci.activities.ActivityStoryList;
@@ -82,6 +83,7 @@ public class FragmentBooks extends Fragment {
         str_cat_name = new String[cat_name.size()];
         str_cat_author = new String[cat_author.size()];
         str_cat_image = new String[cat_image.size()];
+
 
         // Using to refresh webpage when user swipes the screen
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -147,6 +149,8 @@ public class FragmentBooks extends Fragment {
 
         if (JsonUtils.isNetworkAvailable(getActivity())) {
             new MyTask().execute(Config.SERVER_URL + "/api.php");
+
+
         } else {
             Toast.makeText(getActivity(), "No Internet Connection", Toast.LENGTH_SHORT).show();
         }
@@ -355,6 +359,8 @@ public class FragmentBooks extends Fragment {
                 return false;
             }
         });
+
+
     }
 
 }

@@ -30,6 +30,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:10.2.1'
     implementation 'com.google.firebase:firebase-core:10.2.1'
     implementation files('libs/picasso-2.5.2.jar')
+
+
 }
 
 apply plugin: 'com.google.gms.google-services'

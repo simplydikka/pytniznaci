@@ -59,6 +59,7 @@
                     android:id="@+id/image_news"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
                     android:contentDescription="@string/img_no"
                     android:scaleType="centerCrop"
                     android:visibility="@string/content" />
@@ -67,7 +68,10 @@
                     android:id="@+id/webView_newsdes"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="10dp" />
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"/>
 
             </LinearLayout>
         </ScrollView>
